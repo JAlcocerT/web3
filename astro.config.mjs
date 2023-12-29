@@ -25,6 +25,7 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [remarkReadingTime],
   },
-  output: "server",
-  adapter: netlify(),
+  output: "./dist"
+  // output: "server",
+  // adapter: netlify(),
 });
