@@ -39,7 +39,7 @@ export default defineConfig({
   // site: SITE_URL,
   site: 'https://jalcocert.github.io',
   base: '/web3/',
-  integrations: [tailwind(), sitemap()],
+  integrations: [sitemap()],
   vite: {
     plugins: [rawFonts(['.ttf'])],
     optimizeDeps: { exclude: ['@resvg/resvg-js'] }
