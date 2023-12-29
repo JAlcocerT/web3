@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
-title: "Hello, World"
+title: "Cryto Bros"
 description: "this is a post example"
-pubDate: 2023-01-21
+pubDate: 2023-01-22
 category: "intro"
 ---
 
