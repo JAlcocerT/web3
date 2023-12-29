@@ -7,7 +7,8 @@ import UnoCSS from "@unocss/astro";
 import solidJs from "@astrojs/solid-js";
 import { remarkReadingTime } from "./src/lib/ remark-reading-time.mjs";
 
-// // https://astro.build/config
+// https://astro.build/config
+
 // export default defineConfig({
 //   site: "https://jalcocert.github.io/",
 //   base: '/web3/',
@@ -39,7 +40,16 @@ export default defineConfig({
   // site: SITE_URL,
   site: 'https://jalcocert.github.io',
   base: '/web3/',
-  integrations: [sitemap()],
+  integrations: [sitemap(),
+                robotsTxt({
+                  sitemap: [
+                    "https://jalcocert.github.io/web3/sitemap-index.xml",
+                    "https://jalcocert.github.io/web3/sitemap-0.xml",
+                  ],
+                }),
+                solidJs(),
+                UnoCSS({ injectReset: true }),
+  ],
   vite: {
     plugins: [rawFonts(['.ttf'])],
     optimizeDeps: { exclude: ['@resvg/resvg-js'] }
