@@ -6,6 +6,8 @@ import ContactsCard from "../components/ContactsCard.astro";
 import TimeZone from "../components/TimeZoneCard.astro";
 import AboutMe from "../components/AboutMe.astro";
 import Now from "../components/Now.astro";
+
+import { baseUrl } from '../utils/baseUrl.js';
 ---
 
 <script>
@@ -45,7 +47,7 @@ import Now from "../components/Now.astro";
       colSpan="md:col-span-1"
       rowSpan="md:row-span-1"
       title="Blog"
-      href="/web3/blog" 
+      href={baseUrl('/blog')} 
     />
     <Now />
     <Card colSpan="md:col-span-1" rowSpan="md:row-span-1">
