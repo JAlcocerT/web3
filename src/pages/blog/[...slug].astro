@@ -1,6 +1,20 @@
 ---
 import { getCollection } from "astro:content";
 
+//to be deployed as SSG
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+
+  // Return an array of path objects for each post
+  return posts.map((post) => {
+    return {
+      params: { slug: post.slug },
+    };
+  });
+}
+
+//end SSG addition
+
 const { slug } = Astro.params;
 
 if (slug === undefined) {
