@@ -1,6 +1,12 @@
-# ⚡️astro-bento-portfolio
+# POWERED thanks to: 
 
-## A personal portfolio website made using `Astro`.
+
+## ⚡️astro-bento-portfolio
+
+* Using ❤️ https://github.com/Ladvace/astro-bento-portfolio
+    * https://github.com/Ladvace/astro-bento-portfolio?tab=MIT-1-ov-file#readme
+
+### A personal portfolio website made using `Astro`.
 
 ![astro-bento-portfolio | Bento-like Personal Porfolio Template](public/preview.png)
 
@@ -8,7 +14,7 @@ To view a demo example, **[click here](https://sparkly-speculoos-0c9197.netlify.
 
 or my portfolio **[click here](https://gianmarco.xyz/)**
 
-## Features
+### Features
 
 - Modern and Minimal bento-like, sleek UI Design
 - All in one page (almost)
@@ -18,13 +24,13 @@ or my portfolio **[click here](https://gianmarco.xyz/)**
 - Blog
 - RSS support (your-domain/rss.xml)
 
-## Tech Stack
+### Tech Stack
 
 - [Astro](https://astro.build)
 - [unocss](https://unocss.dev/)
 - [motion](https://motion.dev/)
 
-# Steps ▶️
+### Steps ▶️
 
 ```bash
 # Clone this repository
@@ -46,7 +52,13 @@ $ npm install
 $ npm run dev
 ```
 
-# Deploy on Netlify 🚀
+## Deployment options
+
+### Github Pages
+
+* Using the [deploy_astro.yml](https://github.com/JAlcocerT/web3/blob/main/.github/workflows/deploy_astro.yml) ✅
+
+### on Netlify 🚀
 
 Deploying your website on Netlify it's optional but I reccomand it in order to deploy it faster and easly.
 
