@@ -7,6 +7,8 @@ import TimeZone from "../components/TimeZoneCard.astro";
 import AboutMe from "../components/AboutMe.astro";
 import Now from "../components/Now.astro";
 
+import Globe from "../components/Globe";
+
 import { baseUrl } from '../utils/baseUrl.js';
 ---
 
@@ -41,7 +43,17 @@ import { baseUrl } from '../utils/baseUrl.js';
   >
     <IntroCard />
     <AboutMe />
-    <ContactsCard />
+    <!-- <ContactsCard /> -->
+    <Card
+    colSpan="md:col-span-1" rowSpan="md:row-span-3" 
+      title="Countries I visited"
+      href="travel"
+      colorText="text-neutral-900"
+    >
+      <div class="h-full w-full absolute inset-0 -z-10">
+        <Globe client:load />
+      </div>
+    </Card>
     <TimeZone />
     <Card
       colSpan="md:col-span-1"
@@ -52,12 +64,19 @@ import { baseUrl } from '../utils/baseUrl.js';
     <Now />
     <Card colSpan="md:col-span-1" rowSpan="md:row-span-1">
       <p class="text-xs">
-        © 2023 · Crafted with ♥️ using <a
-          href="https://astro.build/"
-          target="_blank"
-          class="text-red-500">Astro</a
-        > by Gianmarco.
+        <br> <!-- Add a line space before the paragraph -->
+        <p>Rent my Time - <a href="https://cal.com/jalcocertech" target="_blank"><strong> Calendar 💡 </strong></a></p>
+        <br>
+        © 2024 · Powered with ♥️ by <a
+        href="https://jalcocertech.xyz/"
+        target="_blank"
+        class="text-red-500">JAlcocerTech</a
+      >
       </p>
     </Card>
+    
+
+
+
   </main>
 </Layout>
