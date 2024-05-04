@@ -15,6 +15,7 @@ npm run build
 ### Github Pages
 
 * Use [this workflow](https://github.com/JAlcocerT/web3/blob/main/.github/workflows/deploy_astro.yml)
+    * You can see the GH Actions status [here](https://github.com/JAlcocerT/web3/actions)
 
 ### Cloudflare Pages
 
