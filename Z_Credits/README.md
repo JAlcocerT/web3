@@ -6,6 +6,9 @@
 * Using ❤️ https://github.com/Ladvace/astro-bento-portfolio
     * https://github.com/Ladvace/astro-bento-portfolio?tab=MIT-1-ov-file#readme
 
+* Similar ideas:
+    * https://github.com/bue221/astro-portfolio
+
 ### A personal portfolio website made using `Astro`.
 
 ![astro-bento-portfolio | Bento-like Personal Porfolio Template](public/preview.png)

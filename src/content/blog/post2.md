@@ -19,3 +19,10 @@ It probably isn't styled much, but Markdown does support:
 
 
 ## Why Should you Care?
+
+* https://whycryptocurrencies.com/toc.html
+
+
+---
+
+This site has been possible [thanks to](https://github.com/JAlcocerT/web3/tree/main/Z_Credits)

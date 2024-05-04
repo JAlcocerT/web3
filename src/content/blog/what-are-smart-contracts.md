@@ -10,9 +10,23 @@ https://www.youtube.com/watch?v=M576WGiDBdQ -->
 
 This post has been possible thanks to the **fantastic job of FreeCodeCamp** and this video:
 
+* https://github.com/smartcontractkit/full-blockchain-solidity-course-py
+    * https://github.com/ethereum/remix-project
+
+```sh
+git clone https://github.com/ethereum/remix-project.git
+cd remix-project
+npm install
+
+#npm start
+```
+
 {{< youtube id="M576WGiDBdQ" autoplay="false" >}}
 
-This post has the intention to be a consolidation of the personal notes that I have been creating over the SC topic, combined with the knowledge adquired when following their course. A summary for the future me or anyone interested.
+This post has the intention to be a **consolidation of the personal notes** that I have been creating over the SC topic, combined with the knowledge adquired when following their course. A summary for the future me or anyone interested.
+
+
+
 
 ## Deploying SC
 

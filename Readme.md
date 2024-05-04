@@ -18,7 +18,7 @@ npm run build
 
 ### Cloudflare Pages
 
-
+* Deploying [Astro with Cloudflare Pages](https://fossengineer.com/hosting-with-cloudflare-pages/)
 
 ```sh
 #npx wrangler pages project create
@@ -26,6 +26,8 @@ npx wrangler pages deploy dist #<BUILD_OUTPUT_DIRECTORY>
 ```
 
 ### Firebase
+
+* Deploying [Astro with Google Firebase](https://fossengineer.com/hosting-with-firebase/)
 
 ```sh
 npm install -g firebase-tools
