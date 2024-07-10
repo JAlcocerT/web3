@@ -1,6 +1,6 @@
 <div align="center">
 
-[![CI](https://github.com/JAlcocerT/web3/actions/workflows/ci.yml/badge.svg)](https://github.com/JAlcocerT/web3/blob/main/.github/workflows/deploy_astro.yml)
+[![CI/CD to Github Pages](https://github.com/JAlcocerT/web3/actions/workflows/deploy_astro.yml/badge.svg)](https://github.com/JAlcocerT/web3/blob/main/.github/workflows/deploy_astro.yml)
 [![Astro npm version](https://badge.fury.io/js/astro.svg)](https://badge.fury.io/js/astro)
 
 </div>
