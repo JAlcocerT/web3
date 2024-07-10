@@ -1,4 +1,4 @@
-# POWERED thanks to: 
+# POWERED thanks to ❤️ 
 
 
 ## ⚡️astro-bento-portfolio

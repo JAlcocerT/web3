@@ -1,9 +1,20 @@
+<div align="center">
 
-## Astro - Deploy to...
+[![CI](https://github.com/JAlcocerT/web3/actions/workflows/ci.yml/badge.svg)](https://github.com/JAlcocerT/web3/blob/main/.github/workflows/deploy_astro.yml)
+[![Astro npm version](https://badge.fury.io/js/astro.svg)](https://badge.fury.io/js/astro)
+
+</div>
+
+
+---
+
+## Getting Started with Astro
+
+Run it locally with:
 
 ```sh
 npm install
-npm run dev
+npm run dev #http://localhost:4321/web3/
 
 npm run build
 #npm install -g http-server
@@ -11,6 +22,12 @@ npm run build
 
 #python3 -m http.server 8080
 ```
+
+Deploy it with any of:
+
+* [GH Pages](#github-pages)
+* [Cloudlfare Pages](#cloudflare-pages)
+* [Google Firebase Hosting](#firebase)
 
 ### Github Pages
 
