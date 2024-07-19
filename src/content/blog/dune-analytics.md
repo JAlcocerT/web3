@@ -8,11 +8,13 @@ pubDate: 2024-05-01
 
 # Dune
 
-<https://defillama.com/top-protocols>
-<https://defillama.com/yields?project=lido>
-<https://dune.com/fossengineer/uniswap>
+* <https://defillama.com/top-protocols>
+* <https://defillama.com/yields?project=lido>
+* <https://dune.com/fossengineer/uniswap>
 
-Dune Analytics is a web-based platform that provides users with tools to analyze, visualize, and share Ethereum blockchain data through SQL queries. It simplifies the process of extracting insights from on-chain data, helping users make informed decisions based on their research and analysis.
+Dune Analytics is a web-based platform that provides users with tools to analyze, visualize, and share Ethereum blockchain data through SQL queries.
+
+It simplifies the process of extracting insights from on-chain data, helping users make informed decisions based on their research and analysis.
 
 * <dune.com>
 * <dune.xyz>
