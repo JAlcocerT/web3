@@ -24,5 +24,35 @@ In summary, stablecoins provide a way to enjoy the benefits of cryptocurrency (l
 
 ## Protocols
 
+### Lending
+
+* AAVE a Peer to Contract Lending DeFi Protocol
+
 * https://curve.fi/#/ethereum/pools/aave/deposit
 * https://app.aave.com/reserve-overview/?underlyingAsset=0x6b175474e89094c44da98b954eedeac495271d0f&marketName=proto_mainnet_v3
+  * https://aavescan.com/polygon-v3/0x8f3cf7ad23cd3cadbd9735aff958023239c6a0630xa97684ead0e402dc232d5a977953df7ecbab3cdb
+ 
+Lending Assets: You supply assets (like ETH, USDC, DAI, etc.) to Aave’s liquidity pools. These assets are then made available for others to borrow.
+
+Interest Accrual: Just like Compound, when you lend assets, you earn interest. This interest is algorithmically determined based on the supply and demand for each asset in the pool. The interest rate can be variable (changes based on market conditions) or fixed (for more predictable returns).
+
+aTokens: When you supply assets to Aave, you receive aTokens (like aDAI for DAI or aETH for ETH). These aTokens represent your deposited amount and the interest you accrue over time.
+
+The value of aTokens doesn’t change, but your balance of aTokens increases automatically as interest is earned. For example, if you deposit DAI, you’ll get aDAI in return, and as time passes, your aDAI balance grows.
+Withdrawing: You can withdraw your supplied assets at any time. When you redeem your aTokens, you get back your original assets plus any interest that was accrued during the lending period, all in the same currency you initially lent.
+
+* Compound: A lending and borrowing platform. Users can supply crypto to earn interest or borrow assets by providing collateral. It’s focused on decentralized lending markets.
+  * https://app.compound.finance/markets
+ 
+Lending: When you supply (lend) a cryptocurrency like ETH, USDC, or DAI to Compound, it gets locked into the protocol.
+
+Earning Interest: Over time, you earn interest based on the demand for that asset in the lending pool. The more people borrowing that asset, the higher the interest rate you earn as a lender.
+
+Redeeming Your Tokens: When you're ready to withdraw, you get back your original cryptocurrency (like USDC if that's what you supplied), plus the accrued interest. The interest is earned in the same cryptocurrency you lent, so if you lent DAI, you'd get back DAI + interest in DAI.
+
+cTokens: When you lend assets, Compound gives you cTokens (like cUSDC for USDC, cETH for ETH). These represent your balance in the pool. The value of these cTokens increases over time as interest accumulates, and when you redeem them, you get back more of the original currency than you started with.
+
+### DEX
+
+* Uniswap: A decentralized exchange (DEX). It allows users to swap one cryptocurrency for another directly from their wallets without an intermediary. Liquidity is provided by users who deposit tokens into pools, and the exchange is automated using algorithms (AMM model).
+  * https://app.uniswap.org/
